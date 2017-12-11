@@ -8,6 +8,47 @@
 	<test name="t1" preserve-order="true">
    	 <classes>
    	   <class name="com.edu.login.LoginRightTest"/>
+   	   <class name="com.edu.login.LoginWrongPasswordTest"/>
+   	   <class name="com.edu.login.LoginWrongUsernameTest"/>
+   	   <class name="com.edu.login.LoginWebtest"/>
+   	   
+   	   <class name="com.edu.article.PreviewArticleTest"/>
+       <class name="com.edu.article.EditArticleTest"/>
+       <class name="com.edu.article.TurnForumTest"/>
+       <class name="com.edu.article.DeleteArticleTest"/>
+       <class name="com.edu.singlepage.AddTest"/>
+       
+       <class name="com.edu.login.LoginWebtest"/>
+       <class name="com.edu.blog.AddCategoryTest"/>
+       <class name="com.edu.blog.AddBlogTest"/>
+       <class name="com.edu.blog.DelChildCategoryTest"/>
+       <class name="com.edu.blog.DelCategoryTest"/>
+       
+       <class name="com.edu.handbook.AddHandbookTest"/>
+       <class name="com.edu.handbook.AddChapterTest"/>
+       <class name="com.edu.handbook.ChangeSettingsTest"/>
+       <class name="com.edu.handbook.PreviewHandbookTest"/>
+       
+       <class name="com.edu.memberlist.SelectMemberTest"/>
+       <class name="com.edu.memberlist.PointsTest"/>
+       <class name="com.edu.memberlist.MemberAuthorityTest"/>
+       <class name="com.edu.memberlist.ForbidUserTest"/>
+       <class name="com.edu.memberlist.DeleteUserTest"/>
+       
+       <class name="com.edu.memberfeedback.ReplyTest"/>
+       <class name="com.edu.memberfeedback.BoldTest"/>
+       <class name="com.edu.memberfeedback.PassFeedbackTest"/>
+       <class name="com.edu.memberfeedback.DeleteFeedbackTest"/>
+       
+       <class name="com.edu.memberforum.HideTopicTest"/>
+       <class name="com.edu.memberforum.DisplayTopicTest"/>
+       <class name="com.edu.memberforum.TransferTopicTest"/>
+       <class name="com.edu.memberforum.DeleteTopicTest"/>
+       <class name="com.edu.memberforum.ForbidTopicTest"/>
+       <class name="com.edu.memberforum.CancelDeleteTest"/>
+       <class name="com.edu.memberforum.DeleteTopicTest"/>
+       <class name="com.edu.memberforum.AddBoardTest"/>
+       <class name="com.edu.memberforum.OpenReviewTest"/>
   
     </classes>
   </test>
