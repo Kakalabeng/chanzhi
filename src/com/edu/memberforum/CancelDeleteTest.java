@@ -15,7 +15,7 @@ public class CancelDeleteTest extends BaseTest{
 		Login_Action login=new Login_Action(webtest);
 		login.loginBack("admin", "admin");
 		Forum_Action cancel=new Forum_Action(webtest);
-		cancel.cancel("测试1");
-		assertTrue(webtest.getHtmlSource().contains("测试1"));
+		cancel.cancel("哈哈");
+		assertTrue(webtest.getHtmlSource().contains("哈哈"));
 	}
 }

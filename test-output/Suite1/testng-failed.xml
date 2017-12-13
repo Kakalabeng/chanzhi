@@ -6,6 +6,25 @@
   </listeners>
   <test name="t1(failed)">
     <classes>
+      <class name="com.edu.handbook.PreviewHandbookTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.handbook.PreviewHandbookTest -->
+      <class name="com.edu.memberlist.DeleteUserTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberlist.DeleteUserTest -->
+      <class name="com.edu.singlepage.AddTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="setUpBrowser"/>
+          <include name="bc"/>
+        </methods>
+      </class> <!-- com.edu.singlepage.AddTest -->
       <class name="com.edu.memberlist.PointsTest">
         <methods>
           <include name="doAfterMethod"/>
@@ -18,47 +37,43 @@
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- com.edu.memberfeedback.BoldTest -->
-      <class name="com.edu.blog.AddBlogTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="addBlog"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.blog.AddBlogTest -->
-      <class name="com.edu.memberlist.ForbidUserTest">
+      <class name="com.edu.handbook.ChangeSettingsTest">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- com.edu.memberlist.ForbidUserTest -->
-      <class name="com.edu.memberfeedback.DeleteFeedbackTest">
+      </class> <!-- com.edu.handbook.ChangeSettingsTest -->
+      <class name="com.edu.login.LoginWebtest">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="addFeedback"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- com.edu.memberfeedback.DeleteFeedbackTest -->
+      </class> <!-- com.edu.login.LoginWebtest -->
+      <class name="com.edu.article.PreviewArticleTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="bc"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.edu.article.PreviewArticleTest -->
+      <class name="com.edu.blog.DelCategoryTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.blog.DelCategoryTest -->
+      <class name="com.edu.memberforum.CancelDeleteTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.CancelDeleteTest -->
       <class name="com.edu.login.LoginRightTest">
         <methods>
           <include name="doAfterMethod"/>
           <include name="setUpBrowser"/>
         </methods>
       </class> <!-- com.edu.login.LoginRightTest -->
-      <class name="com.edu.memberlist.SelectMemberTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberlist.SelectMemberTest -->
-      <class name="com.edu.article.EditArticleTest">
-        <methods>
-          <include name="ChooseSkip"/>
-          <include name="doAfterMethod"/>
-          <include name="bc"/>
-          <include name="setUpBrowser"/>
-          <include name="CancelSkip"/>
-        </methods>
-      </class> <!-- com.edu.article.EditArticleTest -->
       <class name="com.edu.article.DeleteArticleTest">
         <methods>
           <include name="bc"/>
@@ -67,173 +82,141 @@
           <include name="setUpBrowser"/>
         </methods>
       </class> <!-- com.edu.article.DeleteArticleTest -->
-      <class name="com.edu.handbook.AddChapterTest">
-        <methods>
-          <include name="addChapter"/>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.handbook.AddChapterTest -->
-      <class name="com.edu.memberforum.AddBoardTest">
+      <class name="com.edu.article.TurnForumTest">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.AddBoardTest -->
-      <class name="com.edu.login.LoginWrongUsernameTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="setUpBrowser"/>
-        </methods>
-      </class> <!-- com.edu.login.LoginWrongUsernameTest -->
-      <class name="com.edu.blog.AddCategoryTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.blog.AddCategoryTest -->
-      <class name="com.edu.login.LoginWebtest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.login.LoginWebtest -->
-      <class name="com.edu.singlepage.AddTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="addSinglePage"/>
-          <include name="setUpBrowser"/>
           <include name="bc"/>
+          <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- com.edu.singlepage.AddTest -->
-      <class name="com.edu.memberlist.MemberAuthorityTest">
+      </class> <!-- com.edu.article.TurnForumTest -->
+      <class name="com.edu.article.EditArticleTest">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberlist.MemberAuthorityTest -->
-      <class name="com.edu.memberfeedback.PassFeedbackTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberfeedback.PassFeedbackTest -->
-      <class name="com.edu.handbook.ChangeSettingsTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.handbook.ChangeSettingsTest -->
-      <class name="com.edu.memberforum.ForbidTopicTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.ForbidTopicTest -->
-      <class name="com.edu.blog.DelCategoryTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.blog.DelCategoryTest -->
-      <class name="com.edu.memberforum.DisplayTopicTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.DisplayTopicTest -->
-      <class name="com.edu.memberforum.TransferTopicTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.TransferTopicTest -->
-      <class name="com.edu.article.AddArticleTest">
-        <methods>
           <include name="bc"/>
-          <include name="doAfterMethod"/>
-          <include name="addEssay"/>
           <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- com.edu.article.AddArticleTest -->
-      <class name="com.edu.memberforum.CancelDeleteTest">
+      </class> <!-- com.edu.article.EditArticleTest -->
+      <class name="com.edu.memberlist.SelectMemberTest">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- com.edu.memberforum.CancelDeleteTest -->
-      <class name="com.edu.memberforum.DeleteTopicTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="deleteTopic"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.DeleteTopicTest -->
-      <class name="com.edu.login.LoginWrongPasswordTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="setUpBrowser"/>
-        </methods>
-      </class> <!-- com.edu.login.LoginWrongPasswordTest -->
-      <class name="com.edu.memberforum.OpenReviewTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberforum.OpenReviewTest -->
-      <class name="com.edu.blog.DelChildCategoryTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.blog.DelChildCategoryTest -->
-      <class name="com.edu.handbook.PreviewHandbookTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.handbook.PreviewHandbookTest -->
+      </class> <!-- com.edu.memberlist.SelectMemberTest -->
       <class name="com.edu.memberfeedback.ReplyTest">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- com.edu.memberfeedback.ReplyTest -->
-      <class name="com.edu.article.TurnForumTest">
+      <class name="com.edu.handbook.AddHandbookTest">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="turnForum"/>
-          <include name="bc"/>
-          <include name="setUpBrowser"/>
+          <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- com.edu.article.TurnForumTest -->
+      </class> <!-- com.edu.handbook.AddHandbookTest -->
+      <class name="com.edu.memberforum.DeleteTopicTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.DeleteTopicTest -->
+      <class name="com.edu.blog.AddBlogTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.blog.AddBlogTest -->
+      <class name="com.edu.memberfeedback.DeleteFeedbackTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberfeedback.DeleteFeedbackTest -->
       <class name="com.edu.memberforum.HideTopicTest">
         <methods>
           <include name="doAfterMethod"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- com.edu.memberforum.HideTopicTest -->
-      <class name="com.edu.memberlist.DeleteUserTest">
+      <class name="com.edu.login.LoginWrongPasswordTest">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.memberlist.DeleteUserTest -->
-      <class name="com.edu.handbook.AddHandbookTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="addHandbook"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- com.edu.handbook.AddHandbookTest -->
-      <class name="com.edu.article.PreviewArticleTest">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="previewEssay"/>
-          <include name="bc"/>
           <include name="setUpBrowser"/>
         </methods>
-      </class> <!-- com.edu.article.PreviewArticleTest -->
+      </class> <!-- com.edu.login.LoginWrongPasswordTest -->
+      <class name="com.edu.memberforum.ForbidTopicTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.ForbidTopicTest -->
+      <class name="com.edu.memberforum.DisplayTopicTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.DisplayTopicTest -->
+      <class name="com.edu.memberforum.AddBoardTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.AddBoardTest -->
+      <class name="com.edu.blog.AddCategoryTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.blog.AddCategoryTest -->
+      <class name="com.edu.memberforum.OpenReviewTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberforum.OpenReviewTest -->
+      <class name="com.edu.handbook.AddChapterTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.handbook.AddChapterTest -->
+      <class name="com.edu.memberlist.ForbidUserTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberlist.ForbidUserTest -->
+      <class name="com.edu.article.AddArticleTest">
+        <methods>
+          <include name="bc"/>
+          <include name="doAfterMethod"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.edu.article.AddArticleTest -->
+      <class name="com.edu.memberfeedback.PassFeedbackTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberfeedback.PassFeedbackTest -->
+      <class name="com.edu.memberlist.MemberAuthorityTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.memberlist.MemberAuthorityTest -->
+      <class name="com.edu.login.LoginWrongUsernameTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.edu.login.LoginWrongUsernameTest -->
+      <class name="com.edu.blog.DelChildCategoryTest">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- com.edu.blog.DelChildCategoryTest -->
     </classes>
   </test> <!-- t1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

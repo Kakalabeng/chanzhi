@@ -14,7 +14,7 @@ public class DeleteUserTest extends BaseTest{
 		Login_Action login=new Login_Action(webtest);
 		login.loginBack("admin", "admin");
 		Memberlist_Action del=new Memberlist_Action(webtest);
-		del.delUser("admin2", "admin");
-		assertFalse(webtest.getHtmlSource().contains("李四"));
+		del.delUser("admin8", "admin");
+		assertFalse(webtest.getHtmlSource().contains("马六"));
 	}
 }

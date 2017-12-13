@@ -2,10 +2,9 @@
 
 <html>
   <head>
-  <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
     <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -24,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-failed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite1">
+              <span class="suite-name border-passed">Suite1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\25341\AppData\Local\Temp\testng-eclipse--1431116268\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
+                    <span>D:\practice\Chanzhi\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite1">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite1">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite1">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite1">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite1">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite1">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +90,316 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">60 methods,   60 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
                     </span>
-                    <div class="method-list-content failed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite1">
                       <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.edu.tools.test" hash-for-method="test">test</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.EditArticleTest" hash-for-method="CancelSkip">CancelSkip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Default_suite -->
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.EditArticleTest" hash-for-method="ChooseSkip">ChooseSkip</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.login.LoginRightTest" hash-for-method="LoginSuccess">LoginSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.login.LoginWrongPasswordTest" hash-for-method="WrongPassword">WrongPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.login.LoginWrongUsernameTest" hash-for-method="WrongUsername">WrongUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.AddBlogTest" hash-for-method="addBlog(标题二, 内容二)">addBlog(标题二, 内容二)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.AddBlogTest" hash-for-method="addBlog(标题一, 内容一)">addBlog(标题一, 内容一)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.AddBlogTest" hash-for-method="addBlog(标题三, 内容三)">addBlog(标题三, 内容三)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.AddBoardTest" hash-for-method="addBoard">addBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.AddCategoryTest" hash-for-method="addCategory">addCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.AddChapterTest" hash-for-method="addChapter">addChapter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.AddBoardTest" hash-for-method="addChildBoard">addChildBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.AddCategoryTest" hash-for-method="addChildCategory">addChildCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.AddArticleTest" hash-for-method="addEssay(测试2, 测试很厉害)">addEssay(测试2, 测试很厉害)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.AddArticleTest" hash-for-method="addEssay(测试1, 测试很好)">addEssay(测试1, 测试很好)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.AddArticleTest" hash-for-method="addEssay(测试3, 测试棒)">addEssay(测试3, 测试棒)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="addFeedback(b, b1)">addFeedback(b, b1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="addFeedback(c, c1)">addFeedback(c, c1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="addFeedback(a, a1)">addFeedback(a, a1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.AddHandbookTest" hash-for-method="addHandbook(手册二, booktwo, 内容二)">addHandbook(手册二, booktwo, 内容二)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.AddHandbookTest" hash-for-method="addHandbook(手册一, bookone, 内容一)">addHandbook(手册一, bookone, 内容一)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.AddHandbookTest" hash-for-method="addHandbook(手册三, bookthree, 内容三)">addHandbook(手册三, bookthree, 内容三)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.singlepage.AddTest" hash-for-method="addSinglePage(a1, s1)">addSinglePage(a1, s1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.singlepage.AddTest" hash-for-method="addSinglePage(a2, s2)">addSinglePage(a2, s2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.MemberAuthorityTest" hash-for-method="adminPower">adminPower</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.BoldTest" hash-for-method="bold">bold</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.CancelDeleteTest" hash-for-method="cancelDelete">cancelDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.ChangeSettingsTest" hash-for-method="changeSettings">changeSettings</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.SelectMemberTest" hash-for-method="checkAll">checkAll</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.OpenReviewTest" hash-for-method="closeReview">closeReview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="delBefore">delBefore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.AddBoardTest" hash-for-method="delBoard">delBoard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.DelChildCategoryTest" hash-for-method="delCategory">delCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.blog.DelCategoryTest" hash-for-method="delCategory">delCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.AddBoardTest" hash-for-method="delChild">delChild</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="delPass">delPass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.DeleteFeedbackTest" hash-for-method="delThis">delThis</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.DeleteUserTest" hash-for-method="delUser">delUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.DeleteArticleTest" hash-for-method="deleteEssay">deleteEssay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.DeleteTopicTest" hash-for-method="deleteTopic(加油)">deleteTopic(加油)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.DeleteTopicTest" hash-for-method="deleteTopic(代码)">deleteTopic(代码)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.DeleteTopicTest" hash-for-method="deleteTopic(开心)">deleteTopic(开心)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.DisplayTopicTest" hash-for-method="displayTopic">displayTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.ForbidTopicTest" hash-for-method="forbidTopic">forbidTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.ForbidUserTest" hash-for-method="forbidUser">forbidUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.HideTopicTest" hash-for-method="hideTopic">hideTopic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.SelectMemberTest" hash-for-method="inverse">inverse</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.ForbidUserTest" hash-for-method="liftBan">liftBan</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.login.LoginWebtest" hash-for-method="loginBack">loginBack</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.MemberAuthorityTest" hash-for-method="noPower">noPower</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberforum.OpenReviewTest" hash-for-method="openReview">openReview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.PassFeedbackTest" hash-for-method="pass">pass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.PassFeedbackTest" hash-for-method="passBefore">passBefore</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.PreviewArticleTest" hash-for-method="previewEssay">previewEssay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.handbook.PreviewHandbookTest" hash-for-method="previewHandbook">previewHandbook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberfeedback.ReplyTest" hash-for-method="reply">reply</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.PointsTest" hash-for-method="rewardPoints">rewardPoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.MemberAuthorityTest" hash-for-method="superPower">superPower</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.memberlist.PointsTest" hash-for-method="takeOutPoints">takeOutPoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="com.edu.article.TurnForumTest" hash-for-method="turnForum">turnForum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,147 +410,1713 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-failed">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.edu.tools.test</span>
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.handbook.PreviewHandbookTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test">
-                  </a> <!-- test -->
-                  <span class="method-name">test</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at java.io.File.&lt;init&gt;(Unknown Source)
-	at com.edu.tools.ZipCompressor.&lt;init&gt;(ZipCompressor.java:53)
-	at com.edu.tools.test.test(test.java:8)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:776)
-	at org.testng.TestRunner.run(TestRunner.java:634)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
-	at org.testng.TestNG.runSuites(TestNG.java:1161)
-	at org.testng.TestNG.run(TestNG.java:1129)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-</div> <!-- stack-trace -->
+                  <a name="previewHandbook">
+                  </a> <!-- previewHandbook -->
+                  <span class="method-name">previewHandbook</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-failed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberlist.DeleteUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delUser">
+                  </a> <!-- delUser -->
+                  <span class="method-name">delUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.singlepage.AddTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSinglePage(a1, s1)">
+                  </a> <!-- addSinglePage(a1, s1) -->
+                  <span class="method-name">addSinglePage</span>
+                  <span class="parameters">(a1, s1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSinglePage(a2, s2)">
+                  </a> <!-- addSinglePage(a2, s2) -->
+                  <span class="method-name">addSinglePage</span>
+                  <span class="parameters">(a2, s2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberlist.PointsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="rewardPoints">
+                  </a> <!-- rewardPoints -->
+                  <span class="method-name">rewardPoints</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="takeOutPoints">
+                  </a> <!-- takeOutPoints -->
+                  <span class="method-name">takeOutPoints</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberfeedback.BoldTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bold">
+                  </a> <!-- bold -->
+                  <span class="method-name">bold</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.handbook.ChangeSettingsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeSettings">
+                  </a> <!-- changeSettings -->
+                  <span class="method-name">changeSettings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.login.LoginWebtest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginBack">
+                  </a> <!-- loginBack -->
+                  <span class="method-name">loginBack</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.article.PreviewArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="previewEssay">
+                  </a> <!-- previewEssay -->
+                  <span class="method-name">previewEssay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.blog.DelCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delCategory">
+                  </a> <!-- delCategory -->
+                  <span class="method-name">delCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.CancelDeleteTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cancelDelete">
+                  </a> <!-- cancelDelete -->
+                  <span class="method-name">cancelDelete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.login.LoginRightTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginSuccess">
+                  </a> <!-- LoginSuccess -->
+                  <span class="method-name">LoginSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.article.DeleteArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEssay">
+                  </a> <!-- deleteEssay -->
+                  <span class="method-name">deleteEssay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.article.TurnForumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="turnForum">
+                  </a> <!-- turnForum -->
+                  <span class="method-name">turnForum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.article.EditArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CancelSkip">
+                  </a> <!-- CancelSkip -->
+                  <span class="method-name">CancelSkip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ChooseSkip">
+                  </a> <!-- ChooseSkip -->
+                  <span class="method-name">ChooseSkip</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberlist.SelectMemberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAll">
+                  </a> <!-- checkAll -->
+                  <span class="method-name">checkAll</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inverse">
+                  </a> <!-- inverse -->
+                  <span class="method-name">inverse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberfeedback.ReplyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="reply">
+                  </a> <!-- reply -->
+                  <span class="method-name">reply</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.handbook.AddHandbookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHandbook(手册二, booktwo, 内容二)">
+                  </a> <!-- addHandbook(手册二, booktwo, 内容二) -->
+                  <span class="method-name">addHandbook</span>
+                  <span class="parameters">(手册二, booktwo, 内容二)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHandbook(手册一, bookone, 内容一)">
+                  </a> <!-- addHandbook(手册一, bookone, 内容一) -->
+                  <span class="method-name">addHandbook</span>
+                  <span class="parameters">(手册一, bookone, 内容一)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addHandbook(手册三, bookthree, 内容三)">
+                  </a> <!-- addHandbook(手册三, bookthree, 内容三) -->
+                  <span class="method-name">addHandbook</span>
+                  <span class="parameters">(手册三, bookthree, 内容三)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.DeleteTopicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTopic(加油)">
+                  </a> <!-- deleteTopic(加油) -->
+                  <span class="method-name">deleteTopic</span>
+                  <span class="parameters">(加油)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTopic(代码)">
+                  </a> <!-- deleteTopic(代码) -->
+                  <span class="method-name">deleteTopic</span>
+                  <span class="parameters">(代码)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteTopic(开心)">
+                  </a> <!-- deleteTopic(开心) -->
+                  <span class="method-name">deleteTopic</span>
+                  <span class="parameters">(开心)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberfeedback.DeleteFeedbackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFeedback(b, b1)">
+                  </a> <!-- addFeedback(b, b1) -->
+                  <span class="method-name">addFeedback</span>
+                  <span class="parameters">(b, b1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFeedback(c, c1)">
+                  </a> <!-- addFeedback(c, c1) -->
+                  <span class="method-name">addFeedback</span>
+                  <span class="parameters">(c, c1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addFeedback(a, a1)">
+                  </a> <!-- addFeedback(a, a1) -->
+                  <span class="method-name">addFeedback</span>
+                  <span class="parameters">(a, a1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delBefore">
+                  </a> <!-- delBefore -->
+                  <span class="method-name">delBefore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delPass">
+                  </a> <!-- delPass -->
+                  <span class="method-name">delPass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delThis">
+                  </a> <!-- delThis -->
+                  <span class="method-name">delThis</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.blog.AddBlogTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBlog(标题二, 内容二)">
+                  </a> <!-- addBlog(标题二, 内容二) -->
+                  <span class="method-name">addBlog</span>
+                  <span class="parameters">(标题二, 内容二)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBlog(标题一, 内容一)">
+                  </a> <!-- addBlog(标题一, 内容一) -->
+                  <span class="method-name">addBlog</span>
+                  <span class="parameters">(标题一, 内容一)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBlog(标题三, 内容三)">
+                  </a> <!-- addBlog(标题三, 内容三) -->
+                  <span class="method-name">addBlog</span>
+                  <span class="parameters">(标题三, 内容三)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.HideTopicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hideTopic">
+                  </a> <!-- hideTopic -->
+                  <span class="method-name">hideTopic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.login.LoginWrongPasswordTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongPassword">
+                  </a> <!-- WrongPassword -->
+                  <span class="method-name">WrongPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.ForbidTopicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forbidTopic">
+                  </a> <!-- forbidTopic -->
+                  <span class="method-name">forbidTopic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.DisplayTopicTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayTopic">
+                  </a> <!-- displayTopic -->
+                  <span class="method-name">displayTopic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.AddBoardTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addBoard">
+                  </a> <!-- addBoard -->
+                  <span class="method-name">addBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addChildBoard">
+                  </a> <!-- addChildBoard -->
+                  <span class="method-name">addChildBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delBoard">
+                  </a> <!-- delBoard -->
+                  <span class="method-name">delBoard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delChild">
+                  </a> <!-- delChild -->
+                  <span class="method-name">delChild</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.blog.AddCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addCategory">
+                  </a> <!-- addCategory -->
+                  <span class="method-name">addCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addChildCategory">
+                  </a> <!-- addChildCategory -->
+                  <span class="method-name">addChildCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberforum.OpenReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="closeReview">
+                  </a> <!-- closeReview -->
+                  <span class="method-name">closeReview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openReview">
+                  </a> <!-- openReview -->
+                  <span class="method-name">openReview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.handbook.AddChapterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addChapter">
+                  </a> <!-- addChapter -->
+                  <span class="method-name">addChapter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberlist.ForbidUserTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="forbidUser">
+                  </a> <!-- forbidUser -->
+                  <span class="method-name">forbidUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="liftBan">
+                  </a> <!-- liftBan -->
+                  <span class="method-name">liftBan</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberfeedback.PassFeedbackTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="pass">
+                  </a> <!-- pass -->
+                  <span class="method-name">pass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="passBefore">
+                  </a> <!-- passBefore -->
+                  <span class="method-name">passBefore</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.article.AddArticleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEssay(测试2, 测试很厉害)">
+                  </a> <!-- addEssay(测试2, 测试很厉害) -->
+                  <span class="method-name">addEssay</span>
+                  <span class="parameters">(测试2, 测试很厉害)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEssay(测试1, 测试很好)">
+                  </a> <!-- addEssay(测试1, 测试很好) -->
+                  <span class="method-name">addEssay</span>
+                  <span class="parameters">(测试1, 测试很好)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEssay(测试3, 测试棒)">
+                  </a> <!-- addEssay(测试3, 测试棒) -->
+                  <span class="method-name">addEssay</span>
+                  <span class="parameters">(测试3, 测试棒)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.memberlist.MemberAuthorityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adminPower">
+                  </a> <!-- adminPower -->
+                  <span class="method-name">adminPower</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noPower">
+                  </a> <!-- noPower -->
+                  <span class="method-name">noPower</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="superPower">
+                  </a> <!-- superPower -->
+                  <span class="method-name">superPower</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.login.LoginWrongUsernameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="WrongUsername">
+                  </a> <!-- WrongUsername -->
+                  <span class="method-name">WrongUsername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.edu.blog.DelChildCategoryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="delCategory">
+                  </a> <!-- delCategory -->
+                  <span class="method-name">delCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\25341\AppData\Local\Temp\testng-eclipse--1431116268\testng-customsuite.xml</span>
+            <span class="header-content">D:\practice\Chanzhi\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.edu.tools.WebTestListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;t1&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.edu.tools.test&quot;/&gt;
+      &lt;class name=&quot;com.edu.login.LoginRightTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.login.LoginWrongPasswordTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.login.LoginWrongUsernameTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.login.LoginWebtest&quot;/&gt;
+      &lt;class name=&quot;com.edu.article.AddArticleTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.article.PreviewArticleTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.article.EditArticleTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.article.TurnForumTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.article.DeleteArticleTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.singlepage.AddTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.login.LoginWebtest&quot;/&gt;
+      &lt;class name=&quot;com.edu.blog.AddCategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.blog.AddBlogTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.blog.DelChildCategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.blog.DelCategoryTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.handbook.AddHandbookTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.handbook.AddChapterTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.handbook.ChangeSettingsTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.handbook.PreviewHandbookTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberlist.SelectMemberTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberlist.PointsTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberlist.MemberAuthorityTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberlist.ForbidUserTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberlist.DeleteUserTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberfeedback.ReplyTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberfeedback.BoldTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberfeedback.PassFeedbackTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberfeedback.DeleteFeedbackTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.HideTopicTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.DisplayTopicTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.DeleteTopicTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.ForbidTopicTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.CancelDeleteTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.DeleteTopicTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.AddBoardTest&quot;/&gt;
+      &lt;class name=&quot;com.edu.memberforum.OpenReviewTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- t1 --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">t1 (36 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(60);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test')
-data.setCell(0, 2, 'com.edu.tools.test')
-data.setCell(0, 3, 12);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'addChapter')
+data.setCell(0, 2, 'com.edu.handbook.AddChapterTest')
+data.setCell(0, 3, 58288);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addBlog')
+data.setCell(1, 2, 'com.edu.blog.AddBlogTest')
+data.setCell(1, 3, 54383);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addBlog')
+data.setCell(2, 2, 'com.edu.blog.AddBlogTest')
+data.setCell(2, 3, 52137);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'addBlog')
+data.setCell(3, 2, 'com.edu.blog.AddBlogTest')
+data.setCell(3, 3, 51377);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'adminPower')
+data.setCell(4, 2, 'com.edu.memberlist.MemberAuthorityTest')
+data.setCell(4, 3, 48197);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'delCategory')
+data.setCell(5, 2, 'com.edu.blog.DelChildCategoryTest')
+data.setCell(5, 3, 47098);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'delCategory')
+data.setCell(6, 2, 'com.edu.blog.DelCategoryTest')
+data.setCell(6, 3, 46292);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addHandbook')
+data.setCell(7, 2, 'com.edu.handbook.AddHandbookTest')
+data.setCell(7, 3, 46247);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'rewardPoints')
+data.setCell(8, 2, 'com.edu.memberlist.PointsTest')
+data.setCell(8, 3, 45398);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'delUser')
+data.setCell(9, 2, 'com.edu.memberlist.DeleteUserTest')
+data.setCell(9, 3, 43726);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addHandbook')
+data.setCell(10, 2, 'com.edu.handbook.AddHandbookTest')
+data.setCell(10, 3, 43561);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addHandbook')
+data.setCell(11, 2, 'com.edu.handbook.AddHandbookTest')
+data.setCell(11, 3, 43536);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addCategory')
+data.setCell(12, 2, 'com.edu.blog.AddCategoryTest')
+data.setCell(12, 3, 41839);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'cancelDelete')
+data.setCell(13, 2, 'com.edu.memberforum.CancelDeleteTest')
+data.setCell(13, 3, 41060);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'deleteTopic')
+data.setCell(14, 2, 'com.edu.memberforum.DeleteTopicTest')
+data.setCell(14, 3, 40969);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'forbidTopic')
+data.setCell(15, 2, 'com.edu.memberforum.ForbidTopicTest')
+data.setCell(15, 3, 39867);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'changeSettings')
+data.setCell(16, 2, 'com.edu.handbook.ChangeSettingsTest')
+data.setCell(16, 3, 38436);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'forbidUser')
+data.setCell(17, 2, 'com.edu.memberlist.ForbidUserTest')
+data.setCell(17, 3, 38355);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'deleteTopic')
+data.setCell(18, 2, 'com.edu.memberforum.DeleteTopicTest')
+data.setCell(18, 3, 37746);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'deleteTopic')
+data.setCell(19, 2, 'com.edu.memberforum.DeleteTopicTest')
+data.setCell(19, 3, 37637);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'reply')
+data.setCell(20, 2, 'com.edu.memberfeedback.ReplyTest')
+data.setCell(20, 3, 37264);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'addBoard')
+data.setCell(21, 2, 'com.edu.memberforum.AddBoardTest')
+data.setCell(21, 3, 36424);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addChildCategory')
+data.setCell(22, 2, 'com.edu.blog.AddCategoryTest')
+data.setCell(22, 3, 36099);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'hideTopic')
+data.setCell(23, 2, 'com.edu.memberforum.HideTopicTest')
+data.setCell(23, 3, 35700);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'openReview')
+data.setCell(24, 2, 'com.edu.memberforum.OpenReviewTest')
+data.setCell(24, 3, 35683);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'displayTopic')
+data.setCell(25, 2, 'com.edu.memberforum.DisplayTopicTest')
+data.setCell(25, 3, 35669);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'bold')
+data.setCell(26, 2, 'com.edu.memberfeedback.BoldTest')
+data.setCell(26, 3, 34049);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'delThis')
+data.setCell(27, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(27, 3, 33641);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'takeOutPoints')
+data.setCell(28, 2, 'com.edu.memberlist.PointsTest')
+data.setCell(28, 3, 33423);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'closeReview')
+data.setCell(29, 2, 'com.edu.memberforum.OpenReviewTest')
+data.setCell(29, 3, 32910);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'superPower')
+data.setCell(30, 2, 'com.edu.memberlist.MemberAuthorityTest')
+data.setCell(30, 3, 30911);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'noPower')
+data.setCell(31, 2, 'com.edu.memberlist.MemberAuthorityTest')
+data.setCell(31, 3, 30907);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'addFeedback')
+data.setCell(32, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(32, 3, 30480);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'previewHandbook')
+data.setCell(33, 2, 'com.edu.handbook.PreviewHandbookTest')
+data.setCell(33, 3, 28751);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'addFeedback')
+data.setCell(34, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(34, 3, 28656);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'pass')
+data.setCell(35, 2, 'com.edu.memberfeedback.PassFeedbackTest')
+data.setCell(35, 3, 28512);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'addFeedback')
+data.setCell(36, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(36, 3, 28509);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'delPass')
+data.setCell(37, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(37, 3, 27936);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'delChild')
+data.setCell(38, 2, 'com.edu.memberforum.AddBoardTest')
+data.setCell(38, 3, 25943);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'addSinglePage')
+data.setCell(39, 2, 'com.edu.singlepage.AddTest')
+data.setCell(39, 3, 23859);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'addSinglePage')
+data.setCell(40, 2, 'com.edu.singlepage.AddTest')
+data.setCell(40, 3, 23711);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'passBefore')
+data.setCell(41, 2, 'com.edu.memberfeedback.PassFeedbackTest')
+data.setCell(41, 3, 21971);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'delBefore')
+data.setCell(42, 2, 'com.edu.memberfeedback.DeleteFeedbackTest')
+data.setCell(42, 3, 21947);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkAll')
+data.setCell(43, 2, 'com.edu.memberlist.SelectMemberTest')
+data.setCell(43, 3, 20745);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'addEssay')
+data.setCell(44, 2, 'com.edu.article.AddArticleTest')
+data.setCell(44, 3, 18823);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'addEssay')
+data.setCell(45, 2, 'com.edu.article.AddArticleTest')
+data.setCell(45, 3, 18668);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'addEssay')
+data.setCell(46, 2, 'com.edu.article.AddArticleTest')
+data.setCell(46, 3, 18451);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'turnForum')
+data.setCell(47, 2, 'com.edu.article.TurnForumTest')
+data.setCell(47, 3, 17994);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'addChildBoard')
+data.setCell(48, 2, 'com.edu.memberforum.AddBoardTest')
+data.setCell(48, 3, 16656);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'liftBan')
+data.setCell(49, 2, 'com.edu.memberlist.ForbidUserTest')
+data.setCell(49, 3, 14140);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'delBoard')
+data.setCell(50, 2, 'com.edu.memberforum.AddBoardTest')
+data.setCell(50, 3, 13578);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'loginBack')
+data.setCell(51, 2, 'com.edu.login.LoginWebtest')
+data.setCell(51, 3, 11990);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'previewEssay')
+data.setCell(52, 2, 'com.edu.article.PreviewArticleTest')
+data.setCell(52, 3, 10222);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'deleteEssay')
+data.setCell(53, 2, 'com.edu.article.DeleteArticleTest')
+data.setCell(53, 3, 9787);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'inverse')
+data.setCell(54, 2, 'com.edu.memberlist.SelectMemberTest')
+data.setCell(54, 3, 9126);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'CancelSkip')
+data.setCell(55, 2, 'com.edu.article.EditArticleTest')
+data.setCell(55, 3, 8886);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'ChooseSkip')
+data.setCell(56, 2, 'com.edu.article.EditArticleTest')
+data.setCell(56, 3, 8859);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'WrongUsername')
+data.setCell(57, 2, 'com.edu.login.LoginWrongUsernameTest')
+data.setCell(57, 3, 7457);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'LoginSuccess')
+data.setCell(58, 2, 'com.edu.login.LoginRightTest')
+data.setCell(58, 3, 6504);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'WrongPassword')
+data.setCell(59, 2, 'com.edu.login.LoginWrongPasswordTest')
+data.setCell(59, 3, 5490);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 30 minutes</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite1</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.edu.tools.test</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test</span>
+              <div class="chronological-class-name">com.edu.login.LoginRightTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">LoginSuccess</span>
+                <span class="method-start">16246 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">22751 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.login.LoginWrongPasswordTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">28111 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">WrongPassword</span>
+                <span class="method-start">43814 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">49304 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.login.LoginWrongUsernameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">53917 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">WrongUsername</span>
+                <span class="method-start">68744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">76202 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.login.LoginWebtest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">79827 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginBack</span>
+                <span class="method-start">83807 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">95797 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.article.AddArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">99868 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">114150 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addEssay(测试1, 测试很好)</span>
+                <span class="method-start">117579 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addEssay(测试2, 测试很厉害)</span>
+                <span class="method-start">136247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addEssay(测试3, 测试棒)</span>
+                <span class="method-start">154698 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">173521 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.article.PreviewArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">177986 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">192235 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">previewEssay</span>
+                <span class="method-start">195676 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">205898 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.article.EditArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">209595 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">223882 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">ChooseSkip</span>
+                <span class="method-start">227337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">CancelSkip</span>
+                <span class="method-start">236198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">245084 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.article.TurnForumTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">249333 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">264078 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">turnForum</span>
+                <span class="method-start">267540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">285534 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.article.DeleteArticleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">289499 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">303875 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteEssay</span>
+                <span class="method-start">307323 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">317110 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.singlepage.AddTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpBrowser</span>
+                <span class="method-start">321271 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">bc</span>
+                <span class="method-start">335676 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addSinglePage(a1, s1)</span>
+                <span class="method-start">339134 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addSinglePage(a2, s2)</span>
+                <span class="method-start">362845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">386704 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.blog.AddCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">390972 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addCategory</span>
+                <span class="method-start">394936 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addChildCategory</span>
+                <span class="method-start">436776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">472875 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.blog.AddBlogTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">477021 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addBlog(标题一, 内容一)</span>
+                <span class="method-start">481002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addBlog(标题二, 内容二)</span>
+                <span class="method-start">535385 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addBlog(标题三, 内容三)</span>
+                <span class="method-start">586762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">638899 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.blog.DelChildCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">643352 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">delCategory</span>
+                <span class="method-start">647828 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">694926 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.blog.DelCategoryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">699170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">delCategory</span>
+                <span class="method-start">703660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">749953 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.handbook.AddHandbookTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">754449 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addHandbook(手册一, bookone, 内容一)</span>
+                <span class="method-start">758445 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addHandbook(手册二, booktwo, 内容二)</span>
+                <span class="method-start">804692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addHandbook(手册三, bookthree, 内容三)</span>
+                <span class="method-start">848253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">891790 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.handbook.AddChapterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">896209 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addChapter</span>
+                <span class="method-start">900244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">958532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.handbook.ChangeSettingsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">962442 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">changeSettings</span>
+                <span class="method-start">967006 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1005442 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.handbook.PreviewHandbookTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1009358 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">previewHandbook</span>
+                <span class="method-start">1013310 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1042062 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberlist.SelectMemberTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1046453 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkAll</span>
+                <span class="method-start">1050474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">inverse</span>
+                <span class="method-start">1071220 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1080346 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberlist.PointsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1084600 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">rewardPoints</span>
+                <span class="method-start">1088550 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">takeOutPoints</span>
+                <span class="method-start">1133948 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1167371 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberlist.MemberAuthorityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1171846 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">adminPower</span>
+                <span class="method-start">1175875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">superPower</span>
+                <span class="method-start">1224073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">noPower</span>
+                <span class="method-start">1254985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1285892 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberlist.ForbidUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1290427 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">forbidUser</span>
+                <span class="method-start">1294922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">liftBan</span>
+                <span class="method-start">1333278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1347418 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberlist.DeleteUserTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1352107 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">delUser</span>
+                <span class="method-start">1356618 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1400344 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberfeedback.ReplyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1405042 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">reply</span>
+                <span class="method-start">1409552 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1446816 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberfeedback.BoldTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1450892 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">bold</span>
+                <span class="method-start">1455491 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1489540 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberfeedback.PassFeedbackTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1494289 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">pass</span>
+                <span class="method-start">1498765 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">passBefore</span>
+                <span class="method-start">1527277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1549248 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberfeedback.DeleteFeedbackTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1553588 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addFeedback(a, a1)</span>
+                <span class="method-start">1558102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addFeedback(b, b1)</span>
+                <span class="method-start">1588582 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addFeedback(c, c1)</span>
+                <span class="method-start">1617238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delThis</span>
+                <span class="method-start">1645747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delBefore</span>
+                <span class="method-start">1679388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delPass</span>
+                <span class="method-start">1701335 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1729271 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.HideTopicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1733736 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">hideTopic</span>
+                <span class="method-start">1738777 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1774478 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.DisplayTopicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1778968 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">displayTopic</span>
+                <span class="method-start">1783466 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1819135 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.DeleteTopicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1823788 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">deleteTopic(开心)</span>
+                <span class="method-start">1828260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteTopic(代码)</span>
+                <span class="method-start">1869229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">deleteTopic(加油)</span>
+                <span class="method-start">1906975 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1944613 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.ForbidTopicTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1948856 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">forbidTopic</span>
+                <span class="method-start">1953322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">1993189 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.CancelDeleteTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">1997643 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">cancelDelete</span>
+                <span class="method-start">2001614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">2042675 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.AddBoardTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">2046815 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">addBoard</span>
+                <span class="method-start">2051273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addChildBoard</span>
+                <span class="method-start">2087698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delChild</span>
+                <span class="method-start">2104354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">delBoard</span>
+                <span class="method-start">2130298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">2143876 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.edu.memberforum.OpenReviewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doBeforeMethod</span>
+                <span class="method-start">2148159 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">openReview</span>
+                <span class="method-start">2152654 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">closeReview</span>
+                <span class="method-start">2188338 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">doAfterMethod</span>
+                <span class="method-start">2221248 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

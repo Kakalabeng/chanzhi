@@ -1,6 +1,5 @@
 package com.edu.article;
 
-import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -117,7 +116,7 @@ public class Article_Page {
 		this.More.click();
 		this.delete.click();
 		this.confirm.click();
-		assertFalse(_driver.getPageSource().contains("暂时没有记录"));
+		Thread.sleep(2000);
 	}
 	
 	//转至论坛

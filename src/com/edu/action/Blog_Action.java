@@ -87,7 +87,9 @@ public class Blog_Action {
 		webtest.tabClick();
 		webtest.tabClick();
 		webtest.tabType(content);
-		Thread.sleep(8000);
+		Thread.sleep(3000);
+		webtest.runJs("window.scrollTo(0,document.body.scrollHeight)");
+		Thread.sleep(2000);
 		webtest.click("xpath=//input[@value='保存']");
 		Thread.sleep(3000);
 	}

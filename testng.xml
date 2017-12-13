@@ -12,6 +12,7 @@
    	   <class name="com.edu.login.LoginWrongUsernameTest"/>
    	   <class name="com.edu.login.LoginWebtest"/>
    	   
+   	   <class name="com.edu.article.AddArticleTest"/>
    	   <class name="com.edu.article.PreviewArticleTest"/>
        <class name="com.edu.article.EditArticleTest"/>
        <class name="com.edu.article.TurnForumTest"/>
@@ -42,14 +43,12 @@
        
        <class name="com.edu.memberforum.HideTopicTest"/>
        <class name="com.edu.memberforum.DisplayTopicTest"/>
-       <class name="com.edu.memberforum.TransferTopicTest"/>
        <class name="com.edu.memberforum.DeleteTopicTest"/>
        <class name="com.edu.memberforum.ForbidTopicTest"/>
        <class name="com.edu.memberforum.CancelDeleteTest"/>
        <class name="com.edu.memberforum.DeleteTopicTest"/>
        <class name="com.edu.memberforum.AddBoardTest"/>
        <class name="com.edu.memberforum.OpenReviewTest"/>
-  
     </classes>
   </test>
 </suite>

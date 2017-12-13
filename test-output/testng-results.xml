@@ -1,51 +1,819 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" total="60" passed="60">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="43" started-at="2017-12-08T07:31:20Z" finished-at="2017-12-08T07:31:20Z">
+  <suite name="Suite1" duration-ms="2225578" started-at="2017-12-13T06:07:42Z" finished-at="2017-12-13T06:44:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="43" started-at="2017-12-08T07:31:20Z" finished-at="2017-12-08T07:31:20Z">
-      <class name="com.edu.tools.test">
-        <test-method status="FAIL" signature="test()[pri:0, instance:com.edu.tools.test@7f9a81e8]" name="test" duration-ms="12" started-at="2017-12-08T15:31:20Z" finished-at="2017-12-08T15:31:20Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at java.io.File.<init>(Unknown Source)
-	at com.edu.tools.ZipCompressor.<init>(ZipCompressor.java:53)
-	at com.edu.tools.test.test(test.java:8)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:776)
-	at org.testng.TestRunner.run(TestRunner.java:634)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
-	at org.testng.TestNG.runSuites(TestNG.java:1161)
-	at org.testng.TestNG.run(TestNG.java:1129)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+    <test name="t1" duration-ms="2225578" started-at="2017-12-13T06:07:42Z" finished-at="2017-12-13T06:44:47Z">
+      <class name="com.edu.memberforum.AddBoardTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="doBeforeMethod" is-config="true" duration-ms="4458" started-at="2017-12-13T14:41:48Z" finished-at="2017-12-13T14:41:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- com.edu.tools.test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addBoard()[pri:0, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="addBoard" duration-ms="36424" started-at="2017-12-13T14:41:53Z" finished-at="2017-12-13T14:42:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBoard -->
+        <test-method status="PASS" signature="addChildBoard()[pri:1, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="addChildBoard" duration-ms="16656" started-at="2017-12-13T14:42:29Z" finished-at="2017-12-13T14:42:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addChildBoard -->
+        <test-method status="PASS" signature="delChild()[pri:2, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="delChild" duration-ms="25943" started-at="2017-12-13T14:42:46Z" finished-at="2017-12-13T14:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delChild -->
+        <test-method status="PASS" signature="delBoard()[pri:3, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="delBoard" duration-ms="13578" started-at="2017-12-13T14:43:12Z" finished-at="2017-12-13T14:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delBoard -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.AddBoardTest@5a01ccaa]" name="doAfterMethod" is-config="true" duration-ms="4283" started-at="2017-12-13T14:43:25Z" finished-at="2017-12-13T14:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.AddBoardTest -->
+      <class name="com.edu.memberlist.MemberAuthorityTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberlist.MemberAuthorityTest@649d209a]" name="doBeforeMethod" is-config="true" duration-ms="4029" started-at="2017-12-13T14:27:13Z" finished-at="2017-12-13T14:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="adminPower()[pri:0, instance:com.edu.memberlist.MemberAuthorityTest@649d209a]" name="adminPower" duration-ms="48197" started-at="2017-12-13T14:27:17Z" finished-at="2017-12-13T14:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminPower -->
+        <test-method status="PASS" signature="superPower()[pri:0, instance:com.edu.memberlist.MemberAuthorityTest@649d209a]" name="superPower" duration-ms="30911" started-at="2017-12-13T14:28:06Z" depends-on-methods="com.edu.memberlist.MemberAuthorityTest.adminPower" finished-at="2017-12-13T14:28:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superPower -->
+        <test-method status="PASS" signature="noPower()[pri:0, instance:com.edu.memberlist.MemberAuthorityTest@649d209a]" name="noPower" duration-ms="30907" started-at="2017-12-13T14:28:37Z" depends-on-methods="com.edu.memberlist.MemberAuthorityTest.superPower" finished-at="2017-12-13T14:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noPower -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberlist.MemberAuthorityTest@649d209a]" name="doAfterMethod" is-config="true" duration-ms="4535" started-at="2017-12-13T14:29:07Z" finished-at="2017-12-13T14:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberlist.MemberAuthorityTest -->
+      <class name="com.edu.memberlist.ForbidUserTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberlist.ForbidUserTest@357246de]" name="doBeforeMethod" is-config="true" duration-ms="4494" started-at="2017-12-13T14:29:12Z" finished-at="2017-12-13T14:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="forbidUser()[pri:0, instance:com.edu.memberlist.ForbidUserTest@357246de]" name="forbidUser" duration-ms="38355" started-at="2017-12-13T14:29:17Z" finished-at="2017-12-13T14:29:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forbidUser -->
+        <test-method status="PASS" signature="liftBan()[pri:0, instance:com.edu.memberlist.ForbidUserTest@357246de]" name="liftBan" duration-ms="14140" started-at="2017-12-13T14:29:55Z" depends-on-methods="com.edu.memberlist.ForbidUserTest.forbidUser" finished-at="2017-12-13T14:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- liftBan -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberlist.ForbidUserTest@357246de]" name="doAfterMethod" is-config="true" duration-ms="4689" started-at="2017-12-13T14:30:09Z" finished-at="2017-12-13T14:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberlist.ForbidUserTest -->
+      <class name="com.edu.memberlist.DeleteUserTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberlist.DeleteUserTest@256216b3]" name="doBeforeMethod" is-config="true" duration-ms="4510" started-at="2017-12-13T14:30:14Z" finished-at="2017-12-13T14:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="delUser()[pri:0, instance:com.edu.memberlist.DeleteUserTest@256216b3]" name="delUser" duration-ms="43726" started-at="2017-12-13T14:30:18Z" finished-at="2017-12-13T14:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delUser -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberlist.DeleteUserTest@256216b3]" name="doAfterMethod" is-config="true" duration-ms="4698" started-at="2017-12-13T14:31:02Z" finished-at="2017-12-13T14:31:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberlist.DeleteUserTest -->
+      <class name="com.edu.blog.DelCategoryTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.blog.DelCategoryTest@6ad5c04e]" name="doBeforeMethod" is-config="true" duration-ms="4489" started-at="2017-12-13T14:19:21Z" finished-at="2017-12-13T14:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="delCategory()[pri:0, instance:com.edu.blog.DelCategoryTest@6ad5c04e]" name="delCategory" duration-ms="46292" started-at="2017-12-13T14:19:25Z" finished-at="2017-12-13T14:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delCategory -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.blog.DelCategoryTest@6ad5c04e]" name="doAfterMethod" is-config="true" duration-ms="4496" started-at="2017-12-13T14:20:12Z" finished-at="2017-12-13T14:20:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.blog.DelCategoryTest -->
+      <class name="com.edu.memberforum.OpenReviewTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.OpenReviewTest@71c7db30]" name="doBeforeMethod" is-config="true" duration-ms="4495" started-at="2017-12-13T14:43:30Z" finished-at="2017-12-13T14:43:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="openReview()[pri:0, instance:com.edu.memberforum.OpenReviewTest@71c7db30]" name="openReview" duration-ms="35683" started-at="2017-12-13T14:43:34Z" finished-at="2017-12-13T14:44:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openReview -->
+        <test-method status="PASS" signature="closeReview()[pri:0, instance:com.edu.memberforum.OpenReviewTest@71c7db30]" name="closeReview" duration-ms="32910" started-at="2017-12-13T14:44:10Z" depends-on-methods="com.edu.memberforum.OpenReviewTest.openReview" finished-at="2017-12-13T14:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReview -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.OpenReviewTest@71c7db30]" name="doAfterMethod" is-config="true" duration-ms="4323" started-at="2017-12-13T14:44:43Z" finished-at="2017-12-13T14:44:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.OpenReviewTest -->
+      <class name="com.edu.article.PreviewArticleTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.article.PreviewArticleTest@2aafb23c]" name="setUpBrowser" is-config="true" duration-ms="14249" started-at="2017-12-13T14:10:40Z" finished-at="2017-12-13T14:10:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.article.PreviewArticleTest@2aafb23c]" name="bc" is-config="true" duration-ms="3441" started-at="2017-12-13T14:10:54Z" finished-at="2017-12-13T14:10:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="previewEssay()[pri:0, instance:com.edu.article.PreviewArticleTest@2aafb23c]" name="previewEssay" duration-ms="10222" started-at="2017-12-13T14:10:57Z" finished-at="2017-12-13T14:11:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewEssay -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.article.PreviewArticleTest@2aafb23c]" name="doAfterMethod" is-config="true" duration-ms="3696" started-at="2017-12-13T14:11:07Z" finished-at="2017-12-13T14:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.article.PreviewArticleTest -->
+      <class name="com.edu.handbook.ChangeSettingsTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.handbook.ChangeSettingsTest@2aaf7cc2]" name="doBeforeMethod" is-config="true" duration-ms="4564" started-at="2017-12-13T14:23:44Z" finished-at="2017-12-13T14:23:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="changeSettings()[pri:0, instance:com.edu.handbook.ChangeSettingsTest@2aaf7cc2]" name="changeSettings" duration-ms="38436" started-at="2017-12-13T14:23:49Z" finished-at="2017-12-13T14:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeSettings -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.handbook.ChangeSettingsTest@2aaf7cc2]" name="doAfterMethod" is-config="true" duration-ms="3916" started-at="2017-12-13T14:24:27Z" finished-at="2017-12-13T14:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.handbook.ChangeSettingsTest -->
+      <class name="com.edu.memberforum.HideTopicTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.HideTopicTest@4ec6a292]" name="doBeforeMethod" is-config="true" duration-ms="5040" started-at="2017-12-13T14:36:35Z" finished-at="2017-12-13T14:36:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="hideTopic()[pri:0, instance:com.edu.memberforum.HideTopicTest@4ec6a292]" name="hideTopic" duration-ms="35700" started-at="2017-12-13T14:36:40Z" finished-at="2017-12-13T14:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hideTopic -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.HideTopicTest@4ec6a292]" name="doAfterMethod" is-config="true" duration-ms="4490" started-at="2017-12-13T14:37:16Z" finished-at="2017-12-13T14:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.HideTopicTest -->
+      <class name="com.edu.memberforum.CancelDeleteTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.CancelDeleteTest@47f37ef1]" name="doBeforeMethod" is-config="true" duration-ms="3971" started-at="2017-12-13T14:40:59Z" finished-at="2017-12-13T14:41:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="cancelDelete()[pri:0, instance:com.edu.memberforum.CancelDeleteTest@47f37ef1]" name="cancelDelete" duration-ms="41060" started-at="2017-12-13T14:41:03Z" finished-at="2017-12-13T14:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancelDelete -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.CancelDeleteTest@47f37ef1]" name="doAfterMethod" is-config="true" duration-ms="4140" started-at="2017-12-13T14:41:44Z" finished-at="2017-12-13T14:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.CancelDeleteTest -->
+      <class name="com.edu.article.DeleteArticleTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.article.DeleteArticleTest@7907ec20]" name="setUpBrowser" is-config="true" duration-ms="14376" started-at="2017-12-13T14:12:31Z" finished-at="2017-12-13T14:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.article.DeleteArticleTest@7907ec20]" name="bc" is-config="true" duration-ms="3447" started-at="2017-12-13T14:12:45Z" finished-at="2017-12-13T14:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="deleteEssay()[pri:0, instance:com.edu.article.DeleteArticleTest@7907ec20]" name="deleteEssay" duration-ms="9787" started-at="2017-12-13T14:12:49Z" finished-at="2017-12-13T14:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEssay -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.article.DeleteArticleTest@7907ec20]" name="doAfterMethod" is-config="true" duration-ms="4160" started-at="2017-12-13T14:12:59Z" finished-at="2017-12-13T14:13:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.article.DeleteArticleTest -->
+      <class name="com.edu.memberforum.ForbidTopicTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.ForbidTopicTest@3c5a99da]" name="doBeforeMethod" is-config="true" duration-ms="4466" started-at="2017-12-13T14:40:10Z" finished-at="2017-12-13T14:40:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="forbidTopic()[pri:0, instance:com.edu.memberforum.ForbidTopicTest@3c5a99da]" name="forbidTopic" duration-ms="39867" started-at="2017-12-13T14:40:15Z" finished-at="2017-12-13T14:40:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forbidTopic -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.ForbidTopicTest@3c5a99da]" name="doAfterMethod" is-config="true" duration-ms="4454" started-at="2017-12-13T14:40:55Z" finished-at="2017-12-13T14:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.ForbidTopicTest -->
+      <class name="com.edu.article.EditArticleTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.article.EditArticleTest@2b80d80f]" name="setUpBrowser" is-config="true" duration-ms="14287" started-at="2017-12-13T14:11:11Z" finished-at="2017-12-13T14:11:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.article.EditArticleTest@2b80d80f]" name="bc" is-config="true" duration-ms="3455" started-at="2017-12-13T14:11:25Z" finished-at="2017-12-13T14:11:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="ChooseSkip()[pri:0, instance:com.edu.article.EditArticleTest@2b80d80f]" name="ChooseSkip" duration-ms="8859" started-at="2017-12-13T14:11:29Z" finished-at="2017-12-13T14:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseSkip -->
+        <test-method status="PASS" signature="CancelSkip()[pri:0, instance:com.edu.article.EditArticleTest@2b80d80f]" name="CancelSkip" duration-ms="8886" started-at="2017-12-13T14:11:38Z" depends-on-methods="com.edu.article.EditArticleTest.ChooseSkip" finished-at="2017-12-13T14:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelSkip -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.article.EditArticleTest@2b80d80f]" name="doAfterMethod" is-config="true" duration-ms="4249" started-at="2017-12-13T14:11:47Z" finished-at="2017-12-13T14:11:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.article.EditArticleTest -->
+      <class name="com.edu.singlepage.AddTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.singlepage.AddTest@546a03af]" name="setUpBrowser" is-config="true" duration-ms="14405" started-at="2017-12-13T14:13:03Z" finished-at="2017-12-13T14:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.singlepage.AddTest@546a03af]" name="bc" is-config="true" duration-ms="3457" started-at="2017-12-13T14:13:17Z" finished-at="2017-12-13T14:13:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="addSinglePage(java.lang.String, java.lang.String)[pri:0, instance:com.edu.singlepage.AddTest@546a03af]" name="addSinglePage" duration-ms="23711" started-at="2017-12-13T14:13:21Z" data-provider="singlePageProvider" finished-at="2017-12-13T14:13:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSinglePage -->
+        <test-method status="PASS" signature="addSinglePage(java.lang.String, java.lang.String)[pri:0, instance:com.edu.singlepage.AddTest@546a03af]" name="addSinglePage" duration-ms="23859" started-at="2017-12-13T14:13:44Z" data-provider="singlePageProvider" finished-at="2017-12-13T14:14:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[s2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSinglePage -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.singlepage.AddTest@546a03af]" name="doAfterMethod" is-config="true" duration-ms="4268" started-at="2017-12-13T14:14:08Z" finished-at="2017-12-13T14:14:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.singlepage.AddTest -->
+      <class name="com.edu.memberforum.DisplayTopicTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.DisplayTopicTest@1b40d5f0]" name="doBeforeMethod" is-config="true" duration-ms="4498" started-at="2017-12-13T14:37:21Z" finished-at="2017-12-13T14:37:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="displayTopic()[pri:0, instance:com.edu.memberforum.DisplayTopicTest@1b40d5f0]" name="displayTopic" duration-ms="35669" started-at="2017-12-13T14:37:25Z" finished-at="2017-12-13T14:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayTopic -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.DisplayTopicTest@1b40d5f0]" name="doAfterMethod" is-config="true" duration-ms="4653" started-at="2017-12-13T14:38:01Z" finished-at="2017-12-13T14:38:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.DisplayTopicTest -->
+      <class name="com.edu.memberlist.PointsTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberlist.PointsTest@35851384]" name="doBeforeMethod" is-config="true" duration-ms="3950" started-at="2017-12-13T14:25:46Z" finished-at="2017-12-13T14:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="rewardPoints()[pri:0, instance:com.edu.memberlist.PointsTest@35851384]" name="rewardPoints" duration-ms="45398" started-at="2017-12-13T14:25:50Z" finished-at="2017-12-13T14:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rewardPoints -->
+        <test-method status="PASS" signature="takeOutPoints()[pri:0, instance:com.edu.memberlist.PointsTest@35851384]" name="takeOutPoints" duration-ms="33423" started-at="2017-12-13T14:26:36Z" finished-at="2017-12-13T14:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeOutPoints -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberlist.PointsTest@35851384]" name="doAfterMethod" is-config="true" duration-ms="4475" started-at="2017-12-13T14:27:09Z" finished-at="2017-12-13T14:27:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberlist.PointsTest -->
+      <class name="com.edu.memberforum.DeleteTopicTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberforum.DeleteTopicTest@ea4a92b]" name="doBeforeMethod" is-config="true" duration-ms="4471" started-at="2017-12-13T14:38:05Z" finished-at="2017-12-13T14:38:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="deleteTopic(java.lang.String)[pri:0, instance:com.edu.memberforum.DeleteTopicTest@ea4a92b]" name="deleteTopic" duration-ms="40969" started-at="2017-12-13T14:38:10Z" data-provider="topicProvider" finished-at="2017-12-13T14:38:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[开心]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTopic -->
+        <test-method status="PASS" signature="deleteTopic(java.lang.String)[pri:0, instance:com.edu.memberforum.DeleteTopicTest@ea4a92b]" name="deleteTopic" duration-ms="37746" started-at="2017-12-13T14:38:51Z" data-provider="topicProvider" finished-at="2017-12-13T14:39:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[代码]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTopic -->
+        <test-method status="PASS" signature="deleteTopic(java.lang.String)[pri:0, instance:com.edu.memberforum.DeleteTopicTest@ea4a92b]" name="deleteTopic" duration-ms="37637" started-at="2017-12-13T14:39:29Z" data-provider="topicProvider" finished-at="2017-12-13T14:40:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[加油]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTopic -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberforum.DeleteTopicTest@ea4a92b]" name="doAfterMethod" is-config="true" duration-ms="4243" started-at="2017-12-13T14:40:06Z" finished-at="2017-12-13T14:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberforum.DeleteTopicTest -->
+      <class name="com.edu.login.LoginWebtest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.login.LoginWebtest@6fffcba5]" name="doBeforeMethod" is-config="true" duration-ms="3980" started-at="2017-12-13T14:09:01Z" finished-at="2017-12-13T14:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="loginBack()[pri:0, instance:com.edu.login.LoginWebtest@6fffcba5]" name="loginBack" duration-ms="11990" started-at="2017-12-13T14:09:05Z" finished-at="2017-12-13T14:09:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBack -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.login.LoginWebtest@6fffcba5]" name="doAfterMethod" is-config="true" duration-ms="4071" started-at="2017-12-13T14:09:17Z" finished-at="2017-12-13T14:09:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.login.LoginWebtest -->
+      <class name="com.edu.memberfeedback.PassFeedbackTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberfeedback.PassFeedbackTest@16c0663d]" name="doBeforeMethod" is-config="true" duration-ms="4476" started-at="2017-12-13T14:32:36Z" finished-at="2017-12-13T14:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="pass()[pri:0, instance:com.edu.memberfeedback.PassFeedbackTest@16c0663d]" name="pass" duration-ms="28512" started-at="2017-12-13T14:32:40Z" finished-at="2017-12-13T14:33:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pass -->
+        <test-method status="PASS" signature="passBefore()[pri:0, instance:com.edu.memberfeedback.PassFeedbackTest@16c0663d]" name="passBefore" duration-ms="21971" started-at="2017-12-13T14:33:09Z" finished-at="2017-12-13T14:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passBefore -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberfeedback.PassFeedbackTest@16c0663d]" name="doAfterMethod" is-config="true" duration-ms="4340" started-at="2017-12-13T14:33:31Z" finished-at="2017-12-13T14:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberfeedback.PassFeedbackTest -->
+      <class name="com.edu.blog.AddCategoryTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.blog.AddCategoryTest@721e0f4f]" name="doBeforeMethod" is-config="true" duration-ms="3964" started-at="2017-12-13T14:14:13Z" finished-at="2017-12-13T14:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addCategory()[pri:0, instance:com.edu.blog.AddCategoryTest@721e0f4f]" name="addCategory" duration-ms="41839" started-at="2017-12-13T14:14:17Z" finished-at="2017-12-13T14:14:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCategory -->
+        <test-method status="PASS" signature="addChildCategory()[pri:0, instance:com.edu.blog.AddCategoryTest@721e0f4f]" name="addChildCategory" duration-ms="36099" started-at="2017-12-13T14:14:58Z" depends-on-methods="com.edu.blog.AddCategoryTest.addCategory" finished-at="2017-12-13T14:15:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addChildCategory -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.blog.AddCategoryTest@721e0f4f]" name="doAfterMethod" is-config="true" duration-ms="4146" started-at="2017-12-13T14:15:34Z" finished-at="2017-12-13T14:15:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.blog.AddCategoryTest -->
+      <class name="com.edu.memberfeedback.BoldTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberfeedback.BoldTest@d7b1517]" name="doBeforeMethod" is-config="true" duration-ms="4599" started-at="2017-12-13T14:31:52Z" finished-at="2017-12-13T14:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="bold()[pri:0, instance:com.edu.memberfeedback.BoldTest@d7b1517]" name="bold" duration-ms="34049" started-at="2017-12-13T14:31:57Z" finished-at="2017-12-13T14:32:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bold -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberfeedback.BoldTest@d7b1517]" name="doAfterMethod" is-config="true" duration-ms="4749" started-at="2017-12-13T14:32:31Z" finished-at="2017-12-13T14:32:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberfeedback.BoldTest -->
+      <class name="com.edu.memberfeedback.ReplyTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberfeedback.ReplyTest@2a18f23c]" name="doBeforeMethod" is-config="true" duration-ms="4510" started-at="2017-12-13T14:31:07Z" finished-at="2017-12-13T14:31:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="reply()[pri:0, instance:com.edu.memberfeedback.ReplyTest@2a18f23c]" name="reply" duration-ms="37264" started-at="2017-12-13T14:31:11Z" finished-at="2017-12-13T14:31:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reply -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberfeedback.ReplyTest@2a18f23c]" name="doAfterMethod" is-config="true" duration-ms="4075" started-at="2017-12-13T14:31:48Z" finished-at="2017-12-13T14:31:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberfeedback.ReplyTest -->
+      <class name="com.edu.blog.AddBlogTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.blog.AddBlogTest@28864e92]" name="doBeforeMethod" is-config="true" duration-ms="3980" started-at="2017-12-13T14:15:39Z" finished-at="2017-12-13T14:15:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addBlog(java.lang.String, java.lang.String)[pri:0, instance:com.edu.blog.AddBlogTest@28864e92]" name="addBlog" duration-ms="54383" started-at="2017-12-13T14:15:43Z" data-provider="blogProvider" finished-at="2017-12-13T14:16:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[标题一]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[内容一]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBlog -->
+        <test-method status="PASS" signature="addBlog(java.lang.String, java.lang.String)[pri:0, instance:com.edu.blog.AddBlogTest@28864e92]" name="addBlog" duration-ms="51377" started-at="2017-12-13T14:16:37Z" data-provider="blogProvider" finished-at="2017-12-13T14:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[标题二]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[内容二]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBlog -->
+        <test-method status="PASS" signature="addBlog(java.lang.String, java.lang.String)[pri:0, instance:com.edu.blog.AddBlogTest@28864e92]" name="addBlog" duration-ms="52137" started-at="2017-12-13T14:17:28Z" data-provider="blogProvider" finished-at="2017-12-13T14:18:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[标题三]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[内容三]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBlog -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.blog.AddBlogTest@28864e92]" name="doAfterMethod" is-config="true" duration-ms="4453" started-at="2017-12-13T14:18:20Z" finished-at="2017-12-13T14:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.blog.AddBlogTest -->
+      <class name="com.edu.handbook.AddHandbookTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.handbook.AddHandbookTest@6833ce2c]" name="doBeforeMethod" is-config="true" duration-ms="3995" started-at="2017-12-13T14:20:16Z" finished-at="2017-12-13T14:20:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addHandbook(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.handbook.AddHandbookTest@6833ce2c]" name="addHandbook" duration-ms="46247" started-at="2017-12-13T14:20:20Z" data-provider="handbookProvider" finished-at="2017-12-13T14:21:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[手册一]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bookone]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[内容一]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHandbook -->
+        <test-method status="PASS" signature="addHandbook(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.handbook.AddHandbookTest@6833ce2c]" name="addHandbook" duration-ms="43561" started-at="2017-12-13T14:21:06Z" data-provider="handbookProvider" finished-at="2017-12-13T14:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[手册二]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[booktwo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[内容二]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHandbook -->
+        <test-method status="PASS" signature="addHandbook(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.edu.handbook.AddHandbookTest@6833ce2c]" name="addHandbook" duration-ms="43536" started-at="2017-12-13T14:21:50Z" data-provider="handbookProvider" finished-at="2017-12-13T14:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[手册三]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bookthree]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[内容三]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addHandbook -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.handbook.AddHandbookTest@6833ce2c]" name="doAfterMethod" is-config="true" duration-ms="4418" started-at="2017-12-13T14:22:33Z" finished-at="2017-12-13T14:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.handbook.AddHandbookTest -->
+      <class name="com.edu.memberlist.SelectMemberTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberlist.SelectMemberTest@1888ff2c]" name="doBeforeMethod" is-config="true" duration-ms="4021" started-at="2017-12-13T14:25:08Z" finished-at="2017-12-13T14:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="checkAll()[pri:0, instance:com.edu.memberlist.SelectMemberTest@1888ff2c]" name="checkAll" duration-ms="20745" started-at="2017-12-13T14:25:12Z" finished-at="2017-12-13T14:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAll -->
+        <test-method status="PASS" signature="inverse()[pri:0, instance:com.edu.memberlist.SelectMemberTest@1888ff2c]" name="inverse" duration-ms="9126" started-at="2017-12-13T14:25:33Z" depends-on-methods="com.edu.memberlist.SelectMemberTest.checkAll" finished-at="2017-12-13T14:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inverse -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberlist.SelectMemberTest@1888ff2c]" name="doAfterMethod" is-config="true" duration-ms="4253" started-at="2017-12-13T14:25:42Z" finished-at="2017-12-13T14:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberlist.SelectMemberTest -->
+      <class name="com.edu.handbook.AddChapterTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.handbook.AddChapterTest@725bef66]" name="doBeforeMethod" is-config="true" duration-ms="4035" started-at="2017-12-13T14:22:38Z" finished-at="2017-12-13T14:22:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addChapter()[pri:0, instance:com.edu.handbook.AddChapterTest@725bef66]" name="addChapter" duration-ms="58288" started-at="2017-12-13T14:22:42Z" finished-at="2017-12-13T14:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addChapter -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.handbook.AddChapterTest@725bef66]" name="doAfterMethod" is-config="true" duration-ms="3909" started-at="2017-12-13T14:23:40Z" finished-at="2017-12-13T14:23:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.handbook.AddChapterTest -->
+      <class name="com.edu.article.AddArticleTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="setUpBrowser" is-config="true" duration-ms="14282" started-at="2017-12-13T14:09:21Z" finished-at="2017-12-13T14:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="bc" is-config="true" duration-ms="3420" started-at="2017-12-13T14:09:36Z" finished-at="2017-12-13T14:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="addEssay(java.lang.String, java.lang.String)[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="addEssay" duration-ms="18668" started-at="2017-12-13T14:09:39Z" data-provider="articleProvider" finished-at="2017-12-13T14:09:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[测试很好]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEssay -->
+        <test-method status="PASS" signature="addEssay(java.lang.String, java.lang.String)[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="addEssay" duration-ms="18451" started-at="2017-12-13T14:09:58Z" data-provider="articleProvider" finished-at="2017-12-13T14:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[测试很厉害]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEssay -->
+        <test-method status="PASS" signature="addEssay(java.lang.String, java.lang.String)[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="addEssay" duration-ms="18823" started-at="2017-12-13T14:10:16Z" data-provider="articleProvider" finished-at="2017-12-13T14:10:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[测试3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[测试棒]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEssay -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.article.AddArticleTest@34340fab]" name="doAfterMethod" is-config="true" duration-ms="4465" started-at="2017-12-13T14:10:35Z" finished-at="2017-12-13T14:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.article.AddArticleTest -->
+      <class name="com.edu.handbook.PreviewHandbookTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.handbook.PreviewHandbookTest@6e3c1e69]" name="doBeforeMethod" is-config="true" duration-ms="3951" started-at="2017-12-13T14:24:31Z" finished-at="2017-12-13T14:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="previewHandbook()[pri:0, instance:com.edu.handbook.PreviewHandbookTest@6e3c1e69]" name="previewHandbook" duration-ms="28751" started-at="2017-12-13T14:24:35Z" finished-at="2017-12-13T14:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- previewHandbook -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.handbook.PreviewHandbookTest@6e3c1e69]" name="doAfterMethod" is-config="true" duration-ms="4390" started-at="2017-12-13T14:25:04Z" finished-at="2017-12-13T14:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.handbook.PreviewHandbookTest -->
+      <class name="com.edu.blog.DelChildCategoryTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.blog.DelChildCategoryTest@6ea6d14e]" name="doBeforeMethod" is-config="true" duration-ms="4476" started-at="2017-12-13T14:18:25Z" finished-at="2017-12-13T14:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="delCategory()[pri:0, instance:com.edu.blog.DelChildCategoryTest@6ea6d14e]" name="delCategory" duration-ms="47098" started-at="2017-12-13T14:18:29Z" finished-at="2017-12-13T14:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delCategory -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.blog.DelChildCategoryTest@6ea6d14e]" name="doAfterMethod" is-config="true" duration-ms="4244" started-at="2017-12-13T14:19:17Z" finished-at="2017-12-13T14:19:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.blog.DelChildCategoryTest -->
+      <class name="com.edu.article.TurnForumTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.article.TurnForumTest@2eee9593]" name="setUpBrowser" is-config="true" duration-ms="14745" started-at="2017-12-13T14:11:51Z" finished-at="2017-12-13T14:12:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="bc()[pri:0, instance:com.edu.article.TurnForumTest@2eee9593]" name="bc" is-config="true" duration-ms="3462" started-at="2017-12-13T14:12:06Z" finished-at="2017-12-13T14:12:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bc -->
+        <test-method status="PASS" signature="turnForum()[pri:0, instance:com.edu.article.TurnForumTest@2eee9593]" name="turnForum" duration-ms="17994" started-at="2017-12-13T14:12:09Z" finished-at="2017-12-13T14:12:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnForum -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.article.TurnForumTest@2eee9593]" name="doAfterMethod" is-config="true" duration-ms="3965" started-at="2017-12-13T14:12:27Z" finished-at="2017-12-13T14:12:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.article.TurnForumTest -->
+      <class name="com.edu.memberfeedback.DeleteFeedbackTest">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="doBeforeMethod" is-config="true" duration-ms="4513" started-at="2017-12-13T14:33:35Z" finished-at="2017-12-13T14:33:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="addFeedback(java.lang.String, java.lang.String)[pri:0, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="addFeedback" duration-ms="30480" started-at="2017-12-13T14:33:40Z" data-provider="feedbackProvider" finished-at="2017-12-13T14:34:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFeedback -->
+        <test-method status="PASS" signature="addFeedback(java.lang.String, java.lang.String)[pri:0, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="addFeedback" duration-ms="28656" started-at="2017-12-13T14:34:10Z" data-provider="feedbackProvider" finished-at="2017-12-13T14:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFeedback -->
+        <test-method status="PASS" signature="addFeedback(java.lang.String, java.lang.String)[pri:0, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="addFeedback" duration-ms="28509" started-at="2017-12-13T14:34:39Z" data-provider="feedbackProvider" finished-at="2017-12-13T14:35:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFeedback -->
+        <test-method status="PASS" signature="delThis()[pri:1, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="delThis" duration-ms="33641" started-at="2017-12-13T14:35:07Z" finished-at="2017-12-13T14:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delThis -->
+        <test-method status="PASS" signature="delBefore()[pri:2, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="delBefore" duration-ms="21947" started-at="2017-12-13T14:35:41Z" finished-at="2017-12-13T14:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delBefore -->
+        <test-method status="PASS" signature="delPass()[pri:3, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="delPass" duration-ms="27936" started-at="2017-12-13T14:36:03Z" finished-at="2017-12-13T14:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delPass -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.memberfeedback.DeleteFeedbackTest@23223dd8]" name="doAfterMethod" is-config="true" duration-ms="4465" started-at="2017-12-13T14:36:31Z" finished-at="2017-12-13T14:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.memberfeedback.DeleteFeedbackTest -->
+      <class name="com.edu.login.LoginWrongPasswordTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.login.LoginWrongPasswordTest@3834d63f]" name="setUpBrowser" is-config="true" duration-ms="15702" started-at="2017-12-13T14:08:10Z" finished-at="2017-12-13T14:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="WrongPassword()[pri:0, instance:com.edu.login.LoginWrongPasswordTest@3834d63f]" name="WrongPassword" duration-ms="5490" started-at="2017-12-13T14:08:25Z" finished-at="2017-12-13T14:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongPassword -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.login.LoginWrongPasswordTest@3834d63f]" name="doAfterMethod" is-config="true" duration-ms="4613" started-at="2017-12-13T14:08:31Z" finished-at="2017-12-13T14:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.login.LoginWrongPasswordTest -->
+      <class name="com.edu.login.LoginWrongUsernameTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.login.LoginWrongUsernameTest@1ae369b7]" name="setUpBrowser" is-config="true" duration-ms="14827" started-at="2017-12-13T14:08:36Z" finished-at="2017-12-13T14:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="WrongUsername()[pri:0, instance:com.edu.login.LoginWrongUsernameTest@1ae369b7]" name="WrongUsername" duration-ms="7457" started-at="2017-12-13T14:08:50Z" finished-at="2017-12-13T14:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongUsername -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.login.LoginWrongUsernameTest@1ae369b7]" name="doAfterMethod" is-config="true" duration-ms="3624" started-at="2017-12-13T14:08:58Z" finished-at="2017-12-13T14:09:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.login.LoginWrongUsernameTest -->
+      <class name="com.edu.login.LoginRightTest">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.edu.login.LoginRightTest@17d99928]" name="setUpBrowser" is-config="true" duration-ms="16239" started-at="2017-12-13T14:07:42Z" finished-at="2017-12-13T14:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="LoginSuccess()[pri:0, instance:com.edu.login.LoginRightTest@17d99928]" name="LoginSuccess" duration-ms="6504" started-at="2017-12-13T14:07:58Z" finished-at="2017-12-13T14:08:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginSuccess -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:com.edu.login.LoginRightTest@17d99928]" name="doAfterMethod" is-config="true" duration-ms="5359" started-at="2017-12-13T14:08:04Z" finished-at="2017-12-13T14:08:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- com.edu.login.LoginRightTest -->
+    </test> <!-- t1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>

@@ -28,7 +28,7 @@ public class SendMail {
 
 	  
 	   // 收件人电子邮箱
-	   String to = "zq953617093@163.com";
+	   String to = "626231936@qq.com";
 
 	   // 发件人电子邮箱
 	   String from = "15732167516@163.com";
@@ -61,7 +61,7 @@ public class SendMail {
 	      message.addRecipient(Message.RecipientType.TO ,new InternetAddress(to));
 
 	      // Set Subject: 头字段
-	      message.setSubject("发送");
+	      message.setSubject("韩子萌2015015342");
 
 	      // 创建消息部分
 	      BodyPart messageBodyPart = new MimeBodyPart();
@@ -76,11 +76,10 @@ public class SendMail {
 	      multipart.addBodyPart(messageBodyPart);
 
 	      // 附件部分
+	      CompressedFileUtil zip=new CompressedFileUtil();
+	      zip.yasuo("D:\\practice\\Chanzhi\\test-output", "D:\\test-output");
 	      messageBodyPart = new MimeBodyPart();
-	      ZipDirectoryTestoutput zip=new ZipDirectoryTestoutput();
-	      zip.compressedFile("D:\\practice\\Chanzhi\\test-output","D:\\practice\\Chanzhi\\test-output");
-	      Thread.sleep(3000);
-	      String filename = "D:\\practice\\Chanzhi\\test-output\\test-output.zip";
+	      String filename = "D:\\test-output\\test-output.zip";
 	      DataSource source = new FileDataSource(filename);
 	      messageBodyPart.setDataHandler(new DataHandler(source));
 	      messageBodyPart.setFileName(filename);

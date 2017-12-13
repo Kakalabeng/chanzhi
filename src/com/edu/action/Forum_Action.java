@@ -45,7 +45,7 @@ public class Forum_Action {
 		webtest.selectByValue("xpath=//select[@id='targetBoard']","6");
 		Thread.sleep(2000);
 		webtest.click("xpath=//input[@value='保存']");
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 	}
 	//删除某一特定主题
 	public void delete(String title) throws InterruptedException{

@@ -112,7 +112,7 @@ public class Memberlist_Action {
 		webtest.click("xpath=//a[contains(.,'删除')]");
 		Thread.sleep(2000);
 		webtest.click("xpath=//button[contains(.,'确认')]");
-		Thread.sleep(3000);
+		Thread.sleep(4000);
 	}
 	//禁用某一用户一天
 	public void forbidUser(String username) throws InterruptedException{

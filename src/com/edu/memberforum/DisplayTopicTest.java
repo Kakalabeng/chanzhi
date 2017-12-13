@@ -15,7 +15,7 @@ public class DisplayTopicTest extends BaseTest{
 		Login_Action login=new Login_Action(webtest);
 		login.loginBack("admin", "admin");
 		Forum_Action display=new Forum_Action(webtest);
-		display.display("测试1");
+		display.display("加黑");
 		assertTrue(webtest.getHtmlSource().contains("正常"));
 	}
 }

@@ -13,6 +13,6 @@ public class ForbidTopicTest extends BaseTest{
 		Login_Action login=new Login_Action(webtest);
 		login.loginBack("admin", "admin");
 		Forum_Action forbid=new Forum_Action(webtest);
-		forbid.forbid("测试1");
+		forbid.forbid("隐藏");
 	}
 }
